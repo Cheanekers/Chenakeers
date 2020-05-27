@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.banner{
+    width: 700px;
+    height: 300px;
+    border: 3px solid black;
+    margin: auto;
+
+  background: url(img/stanislav-kondratiev-o1QdvWV9okI-unsplash.jpg);
+  background-size: 100% 100%;
+  animation-name: banner 10s infinite;
+  
+
+}
+
+@keyframes banner{
+
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+
+header{
+    background: #740303bd;
+    width: 100%;
+    box-shadow: 0 0 6px rgba(red, green, blue, );
+    height:  70%;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: list-item;
+    justify-content: space-around;
+    align-items: left;
+
+}
+#menu-navegacion{
+    background-color: #e6d3de;
+    color: #000000;
+    font-family: Oswald ;
+    font-size: 22px;
+    text-decoration: #000000
+
+
+    
+}
+#Nuestros-clientes{
+    background-color: skyblue;
+
+
+}
+
+
+footer{
+    background: #740303bd;
+    width: 100%;
+    box-shadow: 0 0 6px rgba(red, green, blue, );
+    height:  70%;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: list-item;
+    justify-content: space-around;
+    align-items: left;
+}
